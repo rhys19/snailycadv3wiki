@@ -1,5 +1,5 @@
-- [Can I host this on X platform](#)
-- [How to add a custom favicon (Browser icon)](#)
+- [Can I host this on X platform](#can-i-host-this-on-x-platform)
+- [How to add a custom favicon (Browser icon)](#how-to-add-a-custom-favicon-browser-icon)
 
 ## Can I host this on X platform
 
