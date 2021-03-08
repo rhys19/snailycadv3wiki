@@ -1,4 +1,4 @@
-## Troubleshooting
+
 
 **This wiki page is for finding answers to common issues when installing or starting the CAD/MDT**
 
