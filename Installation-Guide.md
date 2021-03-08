@@ -1,4 +1,10 @@
 
+- [Requirements](#requirements)
+- [Video Guides](#video-guides)
+- [Written Guides](#written-guides)
+  - [Installing SnailyCAD](#installing-snailycad)
+  - [Updating SnailyCAD](#updating-snailycad)
+
 ## Requirements
 
 **Please make sure to have all of these installed!**
@@ -14,7 +20,7 @@
 
 ## Written guides
 
-### Installing the SnailyCAD
+### Installing SnailyCAD
 
 1. Open Command Prompt
 2. Run `git clone https://github.com/Dev-CasperTheGhost/snaily-cadv3`
