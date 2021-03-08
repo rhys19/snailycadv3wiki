@@ -38,6 +38,3 @@
    - I get an error saying `Please commit or stash your changes`, please checkout the [troubleshooting guide](https://github.com/Dev-CasperTheGhost/snaily-cadv3/wiki/Troubleshooting)
 2. Run `npm run auto-install` also in the root folder of the CAD/MDT
 3. Once that's finished you can start the CAD/MDT and all should be updated
-
-
-**If you don't understand any step: [please join our support server](https://discord.com/invite/eGnrPqEH7U)**
