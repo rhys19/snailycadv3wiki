@@ -32,7 +32,7 @@
 13. Wait a few seconds until it logs "CAD IS RUNNING ON \<port\>"
 14. The CAD should be running on <http://localhost:3030> by default
 
-## Updating SnailyCAD
+### Updating SnailyCAD
 
 1. Run `git pull origin main` in the root folder of the CAD/MDT
    - I get an error saying `Please commit or stash your changes`, please checkout the [troubleshooting guide](https://github.com/Dev-CasperTheGhost/snaily-cadv3/wiki/Troubleshooting)
