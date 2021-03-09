@@ -28,6 +28,6 @@
 
 ### I correctly installed the live_map resource, but I don't see anyone on the livemap!
 
-  - 1: Make sure to have put in your Steam api key in the CAD-settings [Get it here](steamcommunity.com/dev/apikey)
+  - 1: Make sure to have put in your Steam api key in the CAD-settings [Get it here](https://steamcommunity.com/dev/apikey)
   - 2: Once you've added the Steam api key, all Officers, EMS and FD will need to authenticate with Steam in the accounts page
   - 3: Done! Now you should see them on the live map
