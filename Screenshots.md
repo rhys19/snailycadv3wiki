@@ -1,4 +1,3 @@
-
 ## CAD Settings
 
 ![Cad-settings](https://raw.githubusercontent.com/Dev-CasperTheGhost/snaily-cadv3/main/docs/screenshots/cad_settings.png)

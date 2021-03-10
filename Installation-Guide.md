@@ -1,4 +1,3 @@
-
 - [Requirements](#requirements)
 - [Video Guides](#video-guides)
 - [Written Guides](#written-guides)
@@ -55,8 +54,3 @@
    - To reload: `pm2 reload snailycad`
    - View logs: `pm2 logs snailycad`
    - [Learn more about pm2](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
-
-
-
-
-

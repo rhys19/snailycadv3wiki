@@ -10,7 +10,7 @@
 - Trucker Logs
 - [Bleeter](https://gta.fandom.com/wiki/Bleeter)
 - Realtime dashboards
-- Global Search 
+- Global Search
 - [Live map](https://github.com/Dev-CasperTheGhost/live_map)
 
 - Administration
