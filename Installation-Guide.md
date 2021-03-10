@@ -4,6 +4,7 @@
 - [Written Guides](#written-guides)
   - [Installing SnailyCAD](#installing-snailycad)
   - [Updating SnailyCAD](#updating-snailycad)
+  - [Using pm2 to keep the SnailyCAD running in the background](#using-pm2-to-keep-the-snailycad-running-in-the-background)
 
 ## Requirements
 
@@ -43,3 +44,19 @@
    - I get an error saying `Please commit or stash your changes`, please checkout the [troubleshooting guide](https://github.com/Dev-CasperTheGhost/snaily-cadv3/wiki/Troubleshooting)
 2. Run `npm run auto-install` also in the root folder of the CAD/MDT
 3. Once that's finished you can start the CAD/MDT and all should be updated
+
+### Using pm2 to keep the SnailyCAD running in the background
+
+1. Make sure to have correctly installed SnailyCAD
+2. Install `pm2` globally: `npm install -g pm2`
+3. In the root folder, run `pm2 start npm --name snailycad -- run start`. This will start SnailyCAD in the background.
+   - To stop: `pm2 stop snailycad`
+   - To Restart: `pm2 restart snailycad`
+   - To reload: `pm2 reload snailycad`
+   - View logs: `pm2 logs snailycad`
+   - [Learn more about pm2](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
+
+
+
+
+
