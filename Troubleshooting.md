@@ -8,7 +8,7 @@
 
 ### I get an error saying that `ts-node is not found/not a command`
 
-- run `npm install -g ts-node`
+- run `npm install -g ts-node nodemon`
 
 ### I get an error saying `cannot find module dotenv/config`
 
