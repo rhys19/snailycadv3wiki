@@ -9,4 +9,14 @@
 - Linux VPS (Ubuntu)
 - Installed SnailyCAD
 
-##
+## Installing NGINX
+
+Run the following commands:
+
+1. `sudo apt update`
+2. `sudo apt install nginx`
+
+## Setting up a host
+
+Edit this file: `/etc/nginx/sites-available/default`, this is where you can store all your sites
+
