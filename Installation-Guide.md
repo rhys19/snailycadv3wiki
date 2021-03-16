@@ -16,6 +16,7 @@
 ## Video guides
 
 - [Quick Installation guide](https://youtu.be/dO8qXSDDUag)
+- [Installation Guide by **Mr. Game Eagle**](https://www.youtube.com/watch?v=uNq8gbcLXwQ)
 - [How to update the CAD](https://youtu.be/RV6KeeN4AA4)
 
 ## Written guides
