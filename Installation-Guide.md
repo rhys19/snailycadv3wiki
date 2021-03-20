@@ -4,6 +4,7 @@
   - [Installing SnailyCAD](#installing-snailycad)
   - [Updating SnailyCAD](#updating-snailycad)
   - [Using pm2 to keep the SnailyCAD running in the background](#using-pm2-to-keep-the-snailycad-running-in-the-background)
+  - [Using Docker](#using-docker)
 
 ## Requirements
 
@@ -55,3 +56,21 @@
    - To reload: `pm2 reload snailycad`
    - View logs: `pm2 logs snailycad`
    - [Learn more about pm2](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
+
+### Using docker
+
+**Make sure that you have some understanding of Docker/hosting.**
+**This is mostly for advanced users only.**
+
+1. Make sure that you have `Docker` installed on your machine ([Download Docker](https://www.docker.com/products/docker-desktop))
+2. Open `docker-compose.yml` in the root folder of the CAD.
+3. Change passwords, only change the listed items below
+    - `DB_PASSWORD`: the password of the MySQL database
+    - `JWT_SECRET`: a random string of numbers and letters
+    - `MYSQL_ROOT_PASSWORD`: must be the same as `DB_PASSWORD`! (There's 2 of them, `line 37` & `line 22`)
+4. Start it using `docker-compose up` (To run in the background: `docker-compose up -d`)
+5. Wait for the services to fully start, CAD should be running.
+    - CAD: http://localhost:3030
+    - PhpMyAdmin: http://localhost:8080 
+    - Stop the CAD: `docker compose down --rmi=local`
+  
