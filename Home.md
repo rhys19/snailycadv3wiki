@@ -6,6 +6,7 @@
 - [Common Questions (FAQ)](<https://github.com/Dev-CasperTheGhost/snaily-cadv3/wiki/Common-Questions-(FAQ)>)
 - [Screenshots](https://github.com/Dev-CasperTheGhost/snaily-cadv3/wiki/Screenshots)
 - [Features](https://github.com/Dev-CasperTheGhost/snaily-cadv3/wiki/%E2%9C%A8-Features)
+- [Config file](https://github.com/Dev-CasperTheGhost/snaily-cadv3/wiki/Config-file)
 
 ## Thanks
 
