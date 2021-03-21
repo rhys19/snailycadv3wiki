@@ -65,14 +65,14 @@
 Thanks to [@bound2](https://github.com/bound2) for adding Docker support! ([#117](https://github.com/Dev-CasperTheGhost/snaily-cadv3/pull/117))
 
 1. Make sure that you have `Docker` installed on your machine ([Download Docker](https://www.docker.com/products/docker-desktop))
-2. Create a .env file in the `server` folder and add these values:
+2. Create a .env file in the `root` folder and add these values:
    - DB_HOST=database
    - DB_NAME=snaily-cad
    - DB_USER=root
    - DB_PASSWORD=YOUR_DB_PW_HERE
    - JWT_SECRET=YOUR_JWT_SECRET_HERE
    - PROFILE=production
-3. Start it using `docker-compose --env-file ./server/.env up` (To run in the background: `docker-compose --env-file ./server/.env up -d`)
+3. Start it using `docker-compose --env-file .env up --build --remove-orphans` (To run in the background add to the end of the start command `-d`)
 4. Wait for the services to fully start, CAD should be running.
     - CAD: http://localhost:3030
     - PhpMyAdmin: http://localhost:8080 
