@@ -3,6 +3,7 @@
 - [Is SnailyCAD complete](#is-snailycad-complete)
 - [How can I report a bug or issue](#how-can-i-report-a-bug-or-issue)
 - [Where can I suggest a new feature](#where-can-i-suggest-a-new-feature)
+- [How can I translate the CAD](#how-can-i-translate-the-cad)
 
 ## Can I host this on X platform
 
@@ -34,3 +35,10 @@ TODO: @Dev-CasperTheGhost add feature request template
 -->
 
 You can [join our Discord support server](https://discord.gg/eGnrPqEH7U) or [open a GitHub issue](https://github.com/Dev-CasperTheGhost/snaily-cadv3/issues/new)
+
+## How can I translate the CAD
+
+1. Goto `client/src` folder
+2. Open the `language.json` file
+3. Edit the values
+4. Restart the CAD to see changes
