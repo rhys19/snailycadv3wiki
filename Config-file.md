@@ -5,5 +5,5 @@
 - `user`: The user that you want to use to connect to the MySQL database
 - `password`: The password of the above user
 - `databaseName`: The name of the created database for snaily-cad. For most users, keep this as is.
-- `jwtSecret`: A random string and numbers and letters
+- `jwtSecret`: A random string and numbers, letters and random characters
 - `env`: The environment. Either `production` or `dev`. For most users, keep this to `production`
