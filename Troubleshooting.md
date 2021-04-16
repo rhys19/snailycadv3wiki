@@ -12,7 +12,7 @@
 
 ### I get an error saying `cannot find module dotenv/config`
 
-- run `cd server && npm install dotenv`
+- run `npm install dotenv`
 
 ### I try to run `/callxxx` but it won't show up in the CAD/MDT
 
