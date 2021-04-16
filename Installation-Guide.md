@@ -27,8 +27,8 @@
 1. Open Command Prompt
 2. Run `git clone https://github.com/Dev-CasperTheGhost/snaily-cadv3`
 3. Run `cd snaily-cadv3`
-4. Run `npm run auto-install` and wait it to finish
-5. Open the `server` folder
+4. Run `npm install` and wait it to finish
+5. Open the `src` folder
 6. Make a copy of `config.example.ts` and rename to `config.ts`
 7. Modify that where needed
 8. Go back to your command prompt
@@ -43,7 +43,7 @@
 
 1. Run `git pull origin main` in the root folder of the CAD/MDT
    - I get an error saying `Please commit or stash your changes`, please checkout the [troubleshooting guide](https://github.com/Dev-CasperTheGhost/snaily-cadv3/wiki/Troubleshooting)
-2. Run `npm run auto-install` also in the root folder of the CAD/MDT
+2. Run `npm install` also in the root folder of the CAD/MDT
 3. Once that's finished you can start the CAD/MDT and all should be updated
 
 ### Using pm2 to keep the SnailyCAD running in the background
@@ -65,14 +65,14 @@
 Thanks to [@bound2](https://github.com/bound2) for adding Docker support! ([#117](https://github.com/Dev-CasperTheGhost/snaily-cadv3/pull/117))
 
 1. Make sure that you have `Docker` installed on your machine ([Download Docker](https://www.docker.com/products/docker-desktop))
-2. Create a .env file in the `server` folder and add these values:
+2. Create a .env file in the `root` folder and add these values:
    - DB_HOST=database
    - DB_NAME=snaily-cad
    - DB_USER=root
    - DB_PASSWORD=YOUR_DB_PW_HERE
    - JWT_SECRET=YOUR_JWT_SECRET_HERE
    - PROFILE=production
-3. Start it using `docker-compose --env-file ./server/.env up` (To run in the background: `docker-compose --env-file ./server/.env up -d`)
+3. Start it using `docker-compose --env-file .env up` (To run in the background: `docker-compose --env-file .env up -d`)
 4. Wait for the services to fully start, CAD should be running.
     - CAD: http://localhost:3030
     - PhpMyAdmin: http://localhost:8080 
