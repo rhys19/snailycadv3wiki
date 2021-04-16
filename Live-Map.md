@@ -15,6 +15,6 @@ A:
    - `minimap_sea_2_0.png`
    - `minimap_sea_2_1.png`
 
-2. Navigate to the following folder: `client/public/tiles/`.
+2. Navigate to the following folder: `public/tiles/`.
 3. Replace the corresponding files with your custom tiles.
 4. All done! Restart the CAD and you should see your custom map.
