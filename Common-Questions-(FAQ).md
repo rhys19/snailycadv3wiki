@@ -17,7 +17,7 @@ Currently known supported platforms are:
 ## How to add a custom favicon (Browser icon)
 
 1. Get your image ready, make sure it's png format (`image/png`) and that it's called `favicon.png`.
-2. Navigate to the following folder: `client/public`.
+2. Navigate to the following folder: `public`.
 3. Place that image in that folder.
 
 ## Is SnailyCAD complete
@@ -38,7 +38,7 @@ You can [join our Discord support server](https://discord.gg/eGnrPqEH7U) or [ope
 
 ## How can I translate the CAD
 
-1. Goto `client/src` folder
+1. Goto `src` folder
 2. Open the `language.json` file
 3. Edit the values
 4. Restart the CAD to see changes
