@@ -19,6 +19,7 @@ Currently known supported platforms are:
 1. Get your image ready, make sure it's png format (`image/png`) and that it's called `favicon.png`.
 2. Navigate to the following folder: `public`.
 3. Place that image in that folder.
+4. Restart your CAD
 
 ## Is SnailyCAD complete
 
