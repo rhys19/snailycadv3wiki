@@ -5,6 +5,7 @@
 - [I try to run `/callxxx` but it won't show up in the CAD/MDT](#i-try-to-run-callxxx-but-it-wont-show-up-in-the-cadmdt)
 - [I followed the steps for updating the CAD, but still says it's outdated!](#i-followed-the-steps-for-updating-the-cad-but-still-says-its-outdated)
 - [I correctly installed the live_map resource, but I don't see anyone on the livemap!](#i-followed-the-steps-for-updating-the-cad-but-still-says-its-outdated)
+- [I keep getting an error with `npm run build`](#i-keep-getting-an-error-with-npm-run-build)
 
 ### I get an error saying that `ts-node is not found/not a command`
 
@@ -29,3 +30,9 @@
 - 1: Make sure to have put in your Steam api key in the CAD-settings [Get it here](https://steamcommunity.com/dev/apikey)
 - 2: Once you've added the Steam api key, all Officers, EMS and FD will need to authenticate with Steam in the accounts page
 - 3: Done! Now you should see them on the live map
+
+### I keep getting an error with `npm run build`
+
+- Make sure that you're on node version `14` or higher.
+- Make sure that you're **not** installing the CAD in your `C:Users/xxxx` folder.
+- Make sure that npm has the correct permissions to run.
